@@ -1,0 +1,54 @@
+//  Username variable
+const userName = 'Unicorn Slayer';
+
+//  Ternary expression
+userName ? console.log(`Hello, ${userName}!`) : console.log('Hello! I dont know your name');
+
+//  Question
+const userQuestion = 'What is gonna happen tomorrow?';
+
+console.log(userQuestion);
+
+//  Random number generator between the number 0 and 7
+var randomNumber = Math.floor(Math.random() * 8);
+
+let eightBall = '';
+
+//  Creating if loop to select a random answer
+if(randomNumber == 0) 
+{
+  eightBall = 'It is gonna be Sunny';
+}
+else if(randomNumber == 1)
+{
+  eightBall = 'It will Snow';
+}
+else if(randomNumber == 2)
+{
+  eightBall = 'Aliens will arrive';
+}
+else if(randomNumber == 3)
+{
+  eightBall = 'The Rock will become the president of the united states';
+}
+else if(randomNumber == 4)
+{
+  eightBall = 'Area 51 will get raided';
+}
+else if(randomNumber == 5)
+{
+  eightBall = 'Robots will take over the world';
+}
+else if(randomNumber == 6)
+{
+  eightBall = 'Zombie Apocolypse';
+}
+else if(randomNumber == 7)
+{
+  eightBall = 'Everyone will recieve an unique superpower';
+}
+else {
+  eightBall = 'Tomorrow is the end of the world!!';
+}
+
+console.log(eightBall);
