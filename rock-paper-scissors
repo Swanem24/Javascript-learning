@@ -1,0 +1,91 @@
+//  Arrow Function
+const getUserChoice = userInput => {
+  userInput = userInput.toLowerCase();
+
+  //  If/else function to check what the user inputted
+  if(userInput === 'rock' || userInput === 'paper' || userInput === 'scissors')
+  {
+    return userInput;
+  }
+  else
+  {
+    return 'Invalid Input';
+  }
+};
+
+//  Function for Computer to make a choice
+const getComputerChoice = () => {
+
+  //  Variable to generate random number from 0 to 2
+  let computerChoice = Math.floor(Math.random() * 3);
+
+  //  Switch function
+  switch (computerChoice) 
+  {
+  case 0:
+    return 'rock';
+  case 1:
+    return 'paper';
+  case 2:
+    return 'scissors';
+  }
+}
+
+//  this function decides the winner 
+const determineWinner = (userChoice, computerChoice) => 
+{
+  if(userChoice === computerChoice)
+  {
+    return 'Its a tie!';
+  }
+
+  if(userChoice === 'rock')
+  {
+    if(computerChoice === 'paper')
+    {
+      return 'Computer wins!'
+    }
+    else
+    {
+      return 'You win!';
+    }
+  }
+  else if(userChoice === 'paper')
+  {
+    if(computerChoice === 'scissors')
+    {
+      return 'Computer wins!'
+    }
+    else
+    {
+      return 'You win!';
+    }
+  }
+  else if(userChoice === 'scissors')
+  {
+    if(computerChoice === 'rock')
+    {
+      return 'Computer wins!'
+    }
+    else
+    {
+      return 'You win!';
+    }
+  }
+};
+
+
+//  this function will start the game
+function playGame() 
+{
+  let userChoice = getUserChoice('rock');
+
+  let computerChoice = getComputerChoice();
+
+  console.log(userChoice);
+  console.log(computerChoice);
+  
+  console.log(determineWinner(userChoice, computerChoice));
+}
+
+playGame();
