@@ -9,3 +9,8 @@ Project 1 - Kelvin Weather
 Project 2 - Eight Ball
 - If/else function
 - Ternary expression
+
+Project 3 - Rock Paper Scissors
+- Switch case function
+- Arrow Function
+- Function
