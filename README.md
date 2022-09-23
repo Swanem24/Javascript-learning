@@ -14,3 +14,4 @@ Project 3 - Rock Paper Scissors
 - Switch case function
 - Arrow Function
 - Function
+- Nested loops
