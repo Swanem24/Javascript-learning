@@ -15,3 +15,7 @@ Project 3 - Rock Paper Scissors
 - Arrow Function
 - Function
 - Nested loops
+
+Project 4 - Traning Days
+- Global Scope
+- Local Scope
