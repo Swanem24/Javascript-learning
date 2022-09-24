@@ -19,3 +19,11 @@ Project 3 - Rock Paper Scissors
 Project 4 - Traning Days
 - Global Scope
 - Local Scope
+
+Project 5 - Secret Message
+- Array Methods
+- .join()
+- .splice()
+- .shift()
+- .unshift()
+- .pop()
