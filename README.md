@@ -27,3 +27,7 @@ Project 5 - Secret Message
 - .shift()
 - .unshift()
 - .pop()
+
+Project 6 - Whale Talk (Whale Translator)
+- For Loop
+- Nested Loop
