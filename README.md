@@ -47,3 +47,6 @@ Getters
 
 Setters 
 - reassign values of exisiting properties
+
+Factory Function
+- Used to create many objects
