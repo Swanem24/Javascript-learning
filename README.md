@@ -39,3 +39,11 @@ Project 7
 - Defining getters and setters objects
 - Creating factory Functions
 - Using destructuring techniques
+
+Getters
+- It is a method that gets and return properties in objects
+- Getters can perform an action on the data when getting property
+- Can return different values using conditionals
+
+Setters 
+- reassign values of exisiting properties
