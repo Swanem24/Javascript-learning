@@ -31,3 +31,11 @@ Project 5 - Secret Message
 Project 6 - Whale Talk (Whale Translator)
 - For Loop
 - Nested Loop
+
+Project 7 
+- Objects
+- How to use the this keyword
+- Conveying privacy
+- Defining getters and setters objects
+- Creating factory Functions
+- Using destructuring techniques
