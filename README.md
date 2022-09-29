@@ -27,3 +27,24 @@ Project 5 - Secret Message
 - .shift()
 - .unshift()
 - .pop()
+
+Project 6 - Whale Talk (Whale Translator)
+- For Loop
+- Nested Loop
+
+Project 7 - Meal Maker
+- Objects
+- How to use the this keyword
+- Conveying privacy
+- Defining getters and setters objects
+- Creating factory Functions
+- Using destructuring techniques
+
+Project 8 - Team States
+- Advanced Objects
+- Getters is a method that gets and return properties in objects
+- Getters can perform an action on the data when getting property
+- Can return different values using conditionals
+- Setters reassign values of exisiting properties
+- Factory Function are used to create many objects
+
