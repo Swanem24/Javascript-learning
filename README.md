@@ -42,12 +42,9 @@ Project 7 - Meal Maker
 
 Project 8 - Team States
 - Advanced Objects
-Getters
-- It is a method that gets and return properties in objects
+- Getters is a method that gets and return properties in objects
 - Getters can perform an action on the data when getting property
 - Can return different values using conditionals
-Setters 
-- reassign values of exisiting properties
-Factory Function
-- Used to create many objects
+- Setters reassign values of exisiting properties
+- Factory Function are used to create many objects
 
