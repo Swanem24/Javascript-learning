@@ -50,3 +50,4 @@ Project 8 - Team States
 
 Project 9 - 
 - Higher-order functions (are functions that accept other functions as arguments and/or return functions as output)
+- Iterators such as forEach, filter, map, findIndex
