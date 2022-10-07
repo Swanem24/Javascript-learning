@@ -48,3 +48,6 @@ Project 8 - Team States
 - Setters reassign values of exisiting properties
 - Factory Function are used to create many objects
 
+Project 9 - Grammer Checker
+- Higher-order functions (are functions that accept other functions as arguments and/or return functions as output)
+- Iterators such as forEach, filter, map, findIndex
